@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="Counter.css">
     <script src="Counter.js"></script>
     <title>Counter App</title>
 </head>
 <body>
-    <div class="center">
-    <h4>Counter App</h4>
+    <div class="container div__con">
+    <h2 style="font-weight: 700;">Counter</h2>
+    <div>
     <label id="lbl_Count">0</label>
-    <button onclick="Increment()">+</button> <button onclick="Decrement()">-</button>
+</div>
+    <button class="btn btn__add" onclick="Increment()">Add Count</button> <button class="btn btn__lower" onclick="Decrement()">Lower Count</button>
 </div>
 </body>
 </html>

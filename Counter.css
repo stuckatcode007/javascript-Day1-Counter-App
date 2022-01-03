@@ -1,3 +1,27 @@
-.center {
+body {
+  background-color: #65a0a6;
+}
+
+.div__con {
   text-align: center;
+  background-color: #32a899;
+  border: 1px solid black;
+  margin-top: 100px;
+  width: 34%;
+  height: 222px;
+  border-radius: 15px;
+}
+
+#lbl_Count {
+  font-size: 30px;
+}
+
+.btn__add {
+  background-color: #4e5251;
+  color: aliceblue;
+}
+
+.btn__lower {
+  background-color: #4e5251;
+  color: aliceblue;
 }
